@@ -399,7 +399,7 @@ const App = () => {
                 >
                   View My Work
                 </button>
-                <button className="w-full sm:w-auto border-2 border-purple-600 text-purple-600 px-6 sm:px-8 py-3 rounded-xl hover:bg-purple-600 hover:text-white transition-all duration-300 font-medium">
+                <button className="w-full sm:w-auto border-2 border-purple-600 text-purple-600 px-6 sm:px-8 py-3 rounded-xl hover:bg-purple-600 hover:text-white transition-all duration-300 font-medium" onClick={() => window.open('https://docs.google.com/document/d/1yrCAQzUySIRqqdA9Og3GK3QuPG22hCfaC-RWMnlKors/edit?usp=sharing')}>
                   Download Resume
                 </button>
               </div>
@@ -441,7 +441,6 @@ const App = () => {
                 {/* Center content */}
                 <div className="absolute inset-8 sm:inset-12 bg-gradient-to-br from-purple-600 to-blue-600 rounded-full flex items-center justify-center shadow-2xl">
                   <div className="text-center text-white">
-                    <div className="text-xs sm:text-sm">Epass</div>
                     <div className="text-xl sm:text-3xl font-bold mb-1 sm:mb-2">1000+</div>
                     <div className="text-xs sm:text-sm">Tickets Processed</div>
                   </div>
